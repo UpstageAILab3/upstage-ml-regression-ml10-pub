@@ -116,8 +116,7 @@ RMSE는 예측된 값과 실제 값 간의 평균편차를 측정합니다. 아�
 
 ### Presentation
 
-- [_발표자료_](https://sincere-nova-ec6.notion.site/9af7af5e8d434f92bb16824d36294346?pvs=4)
-
+- [_발표자료_](https://github.com/UpstageAILab3/upstage-ml-regression-m10/blob/main/10%EC%A1%B0%20%ED%8C%80%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
 
 
 ## etc
