@@ -78,13 +78,35 @@ RMSE는 예측된 값과 실제 값 간의 평균편차를 측정합니다. 아�
 
 ## 4. Modeling
 
-### Model descrition
+### Model Description
 
-- _Write model information and why your select this model_
+모델링에서는 처음에 시계열 모델을 활용하여 진행하였습니다. 시계열 데이터의 특성을 잘 반영할 수 있는 다양한 모델들을 실험한 결과, RandomForest와 CatBoost 모델이 가장 좋은 성능을 보였습니다. 각각의 모델은 다음과 같은 이유로 선택되었습니다:
+
+- **RandomForest:** 여러 결정 트리의 앙상블을 통해 과적합을 방지하고, 데이터의 다양한 패턴을 학습할 수 있어 예측 성능이 뛰어납니다.
+- **CatBoost:** 범주형 변수 처리가 우수하고, 과적합을 방지하는 강력한 성능을 제공하여 복잡한 데이터에서도 높은 예측 정확도를 보장합니다.
 
 ### Modeling Process
 
-- _Write model train and test process with capture_
+모델링 과정은 아래와 같은 단계로 진행되었습니다:
+
+1. **다양한 시계열 모델 실행**
+   - ARIMA, SARIMA, LSTM 등 여러 시계열 모델을 실행하여 성능을 비교했습니다.
+
+2. **가장 좋은 점수를 내는 모델 확인**
+   - RandomForest와 CatBoost 모델이 다른 모델들에 비해 가장 좋은 성능을 보였습니다.
+
+3. **RandomForest 모델 파라미터 수정**
+   - Grid Search 및 Random Search를 사용하여 RandomForest 모델의 하이퍼파라미터를 최적화했습니다.
+
+4. **CatBoost 모델 파라미터 수정**
+   - CatBoost의 하이퍼파라미터도 최적화하기 위해 Grid Search 및 Random Search를 활용했습니다.
+
+5. **RandomForest, CatBoost 앙상블 진행**
+   - 두 모델의 예측 결과를 결합하여 앙상블 모델을 구축했습니다.
+
+6. **앙상블 모델 비율 설정**
+   - 최종 앙상블 모델의 비율을 조정하여 가장 높은 예측 성능을 달성했습니다.
+
 
 ## 5. Result
 
