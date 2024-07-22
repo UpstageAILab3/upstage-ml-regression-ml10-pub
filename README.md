@@ -117,6 +117,8 @@ RMSE는 예측된 값과 실제 값 간의 평균편차를 측정합니다. 아�
 ### Presentation
 
 - [_발표자료_](https://sincere-nova-ec6.notion.site/9af7af5e8d434f92bb16824d36294346?pvs=4)
+- pdf : [Uploading 10조 팀리포트 80a8628225654f12abc95140711b99d7.pdf…]()
+
 
 ## etc
 
