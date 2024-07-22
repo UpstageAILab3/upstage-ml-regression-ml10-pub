@@ -111,9 +111,8 @@ RMSE는 예측된 값과 실제 값 간의 평균편차를 측정합니다. 아�
 ## 5. Result
 
 ### Leader Board
+<img width="804" alt="스크린샷 2024-07-22 오후 12 42 01" src="https://github.com/user-attachments/assets/192882af-9f0f-4bf6-8175-184de421ada7">
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
 
 ### Presentation
 
