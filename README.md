@@ -6,7 +6,7 @@
 | ![박건민](https://avatars.githubusercontent.com/u/156163982?v=4) | ![박범철](https://avatars.githubusercontent.com/u/156163982?v=4) | ![임동건](https://avatars.githubusercontent.com/u/156163982?v=4) | ![임종현](https://avatars.githubusercontent.com/u/156163982?v=4) | ![홍진영](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |            [임동건](https://github.com/UpstageAILab)             |            [박건민](https://github.com/UpstageAILab)             |            [박범철](https://github.com/UpstageAILab)             |            [홍진영](https://github.com/Jeandeluge)             |            [임종현](https://github.com/UpstageAILab)             |
-|                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
+|                            팀장, 피처 엔지니어링                             |                           데이터 전처리                             |                            모델링                             |                            EDA                             |                            담당 역할                             |
 
 ## 1. Competiton Info
 
